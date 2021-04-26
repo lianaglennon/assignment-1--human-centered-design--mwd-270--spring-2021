@@ -17,42 +17,40 @@
     <div id="inputForm">
       <h2>Input</h2>
       <form>
-        <p><label for="first-name">Enter your first name </label><input
+        <p><label for="first-name">first name </label><input
           required
           type="text"
           name="first-name"
           id='first-name'
           autofocus
           pattern="[A-Za-z]{1,}">
-        </p>
-        <p><label for="last-name">Enter your last name </label><input
+          <label for="last-name">last name </label><input
           required
           type="text"
           name="last-name"
           id='last-name'
           pattern="[A-Za-z]{1,}">
         </p>
-        <p><label for="street">Enter your street address (formatted as 123 Main Street) </label><input
+        <p><label for="street">street address (ex: 123 Main Street) </label><input
           required
           type="text"
           name="st-address"
           id="street"
           pattern="[0-9]{1,}[ ]{1}[A-Za-z-]{1,}[ ]{1}[A-Za-z]{1,}"
           data-output="st-address--response">
-        </p>
-        <p><label for="apartment">Enter your apartment (if applicable) </label><input
+          <label for="apartment">apartment </label><input class="apt"
           type="text"
           name="apartment"
           id="apartment"
           data-output="apartment--response"></p>
-        <p><label for="city">Enter your city (Boston) </label><input
+        <p><label for="city">city</label><input
           required
           type="text"
           name="city"
           id="city"
           pattern="[A-Za-z]{1,}[ ]{0,1}[A-Za-z]{1,}"
-          data-output="city--response"></p>
-        <p><label for="state">Select your state </label><input
+          data-output="city--response">
+          <label for="state">Select your state </label><input
           required
           name="state"
           id="state"
@@ -111,8 +109,7 @@
             <option value="WI">Wisconsin</option>
             <option value="WY">Wyoming</option>
           </datalist>
-        </p>
-        <p><label for="zip">Enter your zipcode </label><input
+          <label for="zip">zipcode </label><input class="zip" 
           required
           type="text"
           name="zipcode"
@@ -141,10 +138,9 @@
           name="date"
           data-output="date--response"></p>
         <p>Willing to relocate?</p>
-        <p><label><input type="radio" name="relocate" value="both nationally and internationally">Both nationally and internationally</label></p>
-        <p><label><input type="radio" name="relocate" value="nationally">Just nationally</label></p>
-        <p><label><input type="radio" name="relocate" value="internationally">Just internationally</label></p>
-        <p><label><input type="radio" name="relocate" value="no">No</label></p>
+        <p><label><input type="radio" name="relocate" value="both nationally and internationally">Both nationally and internationally</label>
+        <label><input type="radio" name="relocate" value="nationally">Just nationally</label>
+        <label><input type="radio" name="relocate" value="no">No</label></p>
         <input type="submit" value="Submit">
         <input type="reset" name="Reset">
       </form>

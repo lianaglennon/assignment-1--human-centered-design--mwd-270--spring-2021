@@ -25,13 +25,14 @@ main {
 
 p {
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 input {
   text-align: center;
   margin: 3px;
   border: 2px solid black;
+  font-size: 27px;
 }
 
 input:invalid {
@@ -48,22 +49,34 @@ input[type='reset'] {
   text-decoration: none;
   display: inline-block;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 16px;
+  font-size: 27px;
+}
+input[type="radio"] {
+    display:inline-block;
+}
+
+input.apt{
+  width: 100px;
+}
+
+input.zip{
+  width: 80px;
 }
 
 #output {
   margin-left: 5px;
   text-align: center;
+  width: 30%;
 }
 
 #inputForm {
   text-align: left;
   margin-right: 5px;
+  width: 70%
 }
 
 #inputForm,
 #output {
   border: 2px dashed black;
   padding: 10px;
-  width: 49%;
 }
