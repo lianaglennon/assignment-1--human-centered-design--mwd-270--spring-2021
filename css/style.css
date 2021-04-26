@@ -33,6 +33,7 @@ input {
   margin: 3px;
   border: 2px solid black;
   font-size: 27px;
+  max-width: 250px;
 }
 
 input[type='submit'],
