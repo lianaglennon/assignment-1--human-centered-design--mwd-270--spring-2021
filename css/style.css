@@ -10,10 +10,12 @@ body {
 h1 {
   letter-spacing: 2px;
   text-align: center;
+  font-size: 50px;
 }
 
 h2 {
   text-align: center;
+  font-size: 40px;
 }
 
 main {
@@ -23,6 +25,7 @@ main {
 
 p {
   letter-spacing: 1px;
+  font-size: 20px;
 }
 
 input {
@@ -48,16 +51,17 @@ input[type='reset'] {
   font-size: 16px;
 }
 
-.output {
+#output {
   margin-left: 5px;
+  text-align: center;
 }
 
-.inputForm {
+#inputForm {
   text-align: left;
   margin-right: 5px;
 }
 
-.inputForm,
+#inputForm,
 #output {
   border: 2px dashed black;
   padding: 10px;
